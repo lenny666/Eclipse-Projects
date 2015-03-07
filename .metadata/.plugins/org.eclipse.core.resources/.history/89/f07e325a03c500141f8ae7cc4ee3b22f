@@ -1,0 +1,15 @@
+class Machine {
+	public Machine() {
+		System.out.println("Constructor activated!");
+	}
+}
+
+public class Constructors {
+
+	public static void main(String[] args) {
+		
+	Machine machine1 = new Machine();
+	
+	}
+
+}

@@ -1,0 +1,28 @@
+class Person {
+	private String name;
+	
+	public Person() {
+	}
+	
+	public Person(String name) {
+		this.name = name;
+	}
+	
+	public void writeName(){
+		System.out.println("My name is " + name);
+	}
+}
+
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello World");
+		Person person1 = new Person();
+		Person person2 = new Person("John");
+		
+		person
+	}
+
+}
