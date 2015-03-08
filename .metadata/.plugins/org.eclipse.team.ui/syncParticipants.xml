@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Git (Casting Numer...toStringMethod)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1425848282985">
+<data forceFetch="false" root="false">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="Casting Numer...toStringMethod" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
+<mappings>
+<resources resourcePath="/Inheritance" resourceType="4"/>
+<resources resourcePath="/Casting Numerical Values" resourceType="4"/>
+<resources resourcePath="/Encapsulation and the API Docs" resourceType="4"/>
+<resources resourcePath="/toStringMethod" resourceType="4"/>
+<resources resourcePath="/Polymorphism" resourceType="4"/>
+<resources resourcePath="/Interfaces" resourceType="4"/>
+<resources resourcePath="/Packages" resourceType="4"/>
+<resources resourcePath="/Public, Private, Protected" resourceType="4"/>
+<resources resourcePath="/StringBuilderAndFormatting" resourceType="4"/>
+</mappings>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
+</org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
+<gitSynchronizeData container="C:/Users/Kalev/Documents/Eclipse Projects/Casting Numerical Values" dstRev="refs/remotes/origin/master" inludeLocal="true" srcRev="HEAD"/>
+</data>
+</participant>
+</syncparticipants>

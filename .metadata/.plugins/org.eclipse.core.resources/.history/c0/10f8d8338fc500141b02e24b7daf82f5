@@ -1,0 +1,13 @@
+import ocean.Fish; // "import ocean.*" would import all classes from ocean package
+import ocean.plants.Seaweed;
+
+public class Packages {
+
+	public static void main(String[] args) {
+
+		Fish fish = new Fish();
+		Seaweed weed = new Seaweed();
+		
+	}
+
+}

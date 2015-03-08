@@ -1,0 +1,25 @@
+import world.Plant;
+
+
+public class PublicPrivateProtected {
+
+	public static void main(String[] args) {
+
+		Plant plant = new Plant();
+		
+		System.out.println(plant.name);
+		System.out.println(plant.ID);
+		
+		// size is protected; this .java file is not in sama packages as Plant
+		// Won't work
+		//System.out.println(plant.size);
+		
+		
+		// Won't work; this .java file is in different package as Plant, height has package level visibility
+		//System.out.println(plant.height);
+		
+		
+	
+	}
+
+}
