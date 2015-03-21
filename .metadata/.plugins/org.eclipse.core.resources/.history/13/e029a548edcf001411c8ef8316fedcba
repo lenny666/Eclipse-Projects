@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+
+class Machine {
+
+	@Override
+	public String toString() {
+		return "I am a Machine";
+	}
+	
+	public void start() {
+		System.out.println("Starting...");
+	}
+}
+
+class Camera extends Machine {
+
+	@Override
+	public String toString() {
+		return "I am a Camera";
+	}
+	
+}
+
+
+public class GenericsAndWildcards {
+
+	public static void main(String[] args) {
+
+	ArrayList<Machine> list1 = new ArrayList<>();  // writing String after new ArrayList is not mandatory in Java 7 or later
+	
+	list1.add(new Machine());
+	list1.add(new Machine());
+	
+	ArrayList<Machine> list2 = new ArrayList<>();  // writing String after new ArrayList is not mandatory in Java 7 or later
+	
+	list2.add(new Camera());
+	list2.add(new Camera()); 
+	
+	showList(list1);
+	showList(list2); // won't work, cuz showList wants ArrayList of Machine
+					 // now it works.... switched ArrayList<Machine> with <?>
+	
+	}
+	
+	public static void showList(ArrayList<? extends Machine> list) {
+		for (Object value: list) {
+			System.out.println(value);
+		}
+		
+	}
+
+}

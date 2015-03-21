@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="ocean.Seaweed"/>
 <fullyQualifiedTypeName name="Info"/>
 <fullyQualifiedTypeName name="world.Plant"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
